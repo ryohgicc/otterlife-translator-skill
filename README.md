@@ -32,9 +32,10 @@ Claude Code can read and follow the instructions in `SKILL.md` as context.
 
 ### For Cursor
 
-1. Add the content of `SKILL.md` (or a reference to it) to your `.cursorrules` file.
-2. Example rule:
-   > "When asked to translate OtterLife metadata, always follow the guidelines in `.trae/skills/otterlife-translator/SKILL.md`."
+1. Copy the `.cursorrules` file from this repository to your project's root directory.
+2. If you already have a `.cursorrules` file, append the content of our `.cursorrules` to yours.
+3. Cursor will automatically follow the rules when you ask for translations.
+   > "Translate this release note..."
 
 ## Features
 
